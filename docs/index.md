@@ -21,19 +21,14 @@ to get the example projects running on your machine.
 
 ## Phase 4. Technical Modification
 
-Describe your small technical modification to the example project.
+For my technical modification, I tried to predict the penguin's gender based on flipper length, bill depth, and body mass.
 
-Include:
+I didn't want to change the data set, so I decided to change the target, so I chose gender instead of type of species. I then changed the features by omitting bill length just to make it different.
 
-- What you changed
-- Why you chose that change
-- How you verified that it worked
-- What result, output, chart, metric, or behavior confirmed the change
+I verified it worked by checking my outputs. Sections 2, 5, and 6 all had different results and used the new target as the main determinate.
 
-Compared with the example project,
-explain what is different and why the change matters.
+This modification was easy as it only required me to change a few words in the code. However, I was surprised by how less accurate it was and how I needed to change the depth from 3 to 5 based on the information.
 
-Was it easy, or surprisingly challenging and why do you think so?
 
 ## Phase 5. Custom Project
 

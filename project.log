@@ -140,3 +140,125 @@ weighted avg       0.99      0.99      0.99        69
 2026-07-17 12:50:36 | INFO | M03 | Features:  ['bill_length_mm', 'bill_depth_mm', 'flipper_length_mm', 'body_mass_g']
 2026-07-17 12:50:36 | INFO | M03 | Model:     DecisionTreeClassifier(max_depth=3)
 2026-07-17 12:50:36 | INFO | M03 | ========================
+2026-07-20 16:15:20 | INFO | M03 | === RUN START ===
+2026-07-20 16:15:20 | INFO | M03 | project=M03
+2026-07-20 16:15:20 | INFO | M03 | repo_dir=ml-03-classification
+2026-07-20 16:15:20 | INFO | M03 | python=3.14.3
+2026-07-20 16:15:20 | INFO | M03 | os=Windows 11
+2026-07-20 16:15:20 | INFO | M03 | shell=powershell
+2026-07-20 16:15:20 | INFO | M03 | cwd=notebooks
+2026-07-20 16:15:20 | INFO | M03 | github_actions=False
+2026-07-20 16:15:20 | INFO | M03 | Confirming installation:
+2026-07-20 16:15:20 | INFO | M03 |   python:       3.14.3
+2026-07-20 16:15:20 | INFO | M03 |   pandas:       3.0.3
+2026-07-20 16:15:20 | INFO | M03 |   numpy:        2.5.1
+2026-07-20 16:15:20 | INFO | M03 |   scikit-learn: 1.9.0
+2026-07-20 16:15:20 | INFO | M03 |   seaborn:      0.13.2
+2026-07-20 16:15:20 | INFO | M03 |   matplotlib:   3.11.0
+2026-07-20 16:15:20 | INFO | M03 | Loading dataset: penguins
+2026-07-20 16:15:20 | INFO | M03 | Loaded: 344 rows (instances), 7 columns
+2026-07-20 16:15:20 | INFO | M03 | Original rows: 344
+2026-07-20 16:15:20 | INFO | M03 | Model rows:    333
+2026-07-20 16:15:20 | INFO | M03 | Classes in target 'sex': ['Female', 'Male']
+2026-07-20 16:15:20 | DEBUG | M03 | Class counts:
+sex
+Male      168
+Female    165
+Name: count, dtype: int64
+2026-07-20 16:15:20 | INFO | M03 | Train instances: 266
+2026-07-20 16:15:20 | INFO | M03 | Test instances: 67
+2026-07-20 16:15:20 | INFO | M03 | Fitting DecisionTreeClassifier(max_depth=3)
+2026-07-20 16:15:20 | INFO | M03 | Test accuracy: 0.851
+2026-07-20 16:15:20 | INFO | M03 | Per-class precision / recall / F1:
+2026-07-20 16:15:20 | DEBUG | M03 | 
+              precision    recall  f1-score   support
+
+      Female       0.96      0.73      0.83        33
+        Male       0.79      0.97      0.87        34
+
+    accuracy                           0.85        67
+   macro avg       0.87      0.85      0.85        67
+weighted avg       0.87      0.85      0.85        67
+
+2026-07-20 16:15:20 | INFO | M03 | Showing confusion matrix (rows = actual, cols = predicted)
+2026-07-20 16:15:21 | DEBUG | M03 |   depth= 1  train=0.726  test=0.716
+2026-07-20 16:15:21 | DEBUG | M03 |   depth= 2  train=0.891  test=0.821
+2026-07-20 16:15:21 | DEBUG | M03 |   depth= 3  train=0.906  test=0.851
+2026-07-20 16:15:21 | DEBUG | M03 |   depth= 4  train=0.925  test=0.836
+2026-07-20 16:15:21 | DEBUG | M03 |   depth= 5  train=0.966  test=0.896
+2026-07-20 16:15:21 | DEBUG | M03 |   depth= 6  train=0.981  test=0.881
+2026-07-20 16:15:21 | DEBUG | M03 |   depth= 7  train=0.989  test=0.881
+2026-07-20 16:15:21 | DEBUG | M03 |   depth= 8  train=0.989  test=0.881
+2026-07-20 16:15:21 | DEBUG | M03 |   depth= 9  train=0.996  test=0.851
+2026-07-20 16:15:21 | DEBUG | M03 |   depth=10  train=1.000  test=0.881
+2026-07-20 16:15:21 | DEBUG | M03 |   depth=11  train=1.000  test=0.881
+2026-07-20 16:15:21 | DEBUG | M03 |   depth=12  train=1.000  test=0.881
+2026-07-20 16:15:21 | INFO | M03 | ========================
+2026-07-20 16:15:21 | INFO | M03 | SUMMARY
+2026-07-20 16:15:21 | INFO | M03 | ========================
+2026-07-20 16:15:21 | INFO | M03 | Dataset:   penguins
+2026-07-20 16:15:21 | INFO | M03 | Target:    sex  (classification)
+2026-07-20 16:15:21 | INFO | M03 | Features:  ['flipper_length_mm', 'bill_depth_mm', 'body_mass_g']
+2026-07-20 16:15:21 | INFO | M03 | Model:     DecisionTreeClassifier(max_depth=3)
+2026-07-20 16:15:21 | INFO | M03 | ========================
+2026-07-20 16:18:24 | INFO | M03 | === RUN START ===
+2026-07-20 16:18:24 | INFO | M03 | project=M03
+2026-07-20 16:18:24 | INFO | M03 | repo_dir=ml-03-classification
+2026-07-20 16:18:24 | INFO | M03 | python=3.14.3
+2026-07-20 16:18:24 | INFO | M03 | os=Windows 11
+2026-07-20 16:18:24 | INFO | M03 | shell=powershell
+2026-07-20 16:18:24 | INFO | M03 | cwd=notebooks
+2026-07-20 16:18:24 | INFO | M03 | github_actions=False
+2026-07-20 16:18:24 | INFO | M03 | Confirming installation:
+2026-07-20 16:18:24 | INFO | M03 |   python:       3.14.3
+2026-07-20 16:18:24 | INFO | M03 |   pandas:       3.0.3
+2026-07-20 16:18:24 | INFO | M03 |   numpy:        2.5.1
+2026-07-20 16:18:24 | INFO | M03 |   scikit-learn: 1.9.0
+2026-07-20 16:18:24 | INFO | M03 |   seaborn:      0.13.2
+2026-07-20 16:18:24 | INFO | M03 |   matplotlib:   3.11.0
+2026-07-20 16:18:24 | INFO | M03 | Loading dataset: penguins
+2026-07-20 16:18:24 | INFO | M03 | Loaded: 344 rows (instances), 7 columns
+2026-07-20 16:18:24 | INFO | M03 | Original rows: 344
+2026-07-20 16:18:24 | INFO | M03 | Model rows:    333
+2026-07-20 16:18:24 | INFO | M03 | Classes in target 'sex': ['Female', 'Male']
+2026-07-20 16:18:24 | DEBUG | M03 | Class counts:
+sex
+Male      168
+Female    165
+Name: count, dtype: int64
+2026-07-20 16:18:24 | INFO | M03 | Train instances: 266
+2026-07-20 16:18:24 | INFO | M03 | Test instances: 67
+2026-07-20 16:18:24 | INFO | M03 | Fitting DecisionTreeClassifier(max_depth=5)
+2026-07-20 16:18:24 | INFO | M03 | Test accuracy: 0.896
+2026-07-20 16:18:24 | INFO | M03 | Per-class precision / recall / F1:
+2026-07-20 16:18:24 | DEBUG | M03 | 
+              precision    recall  f1-score   support
+
+      Female       0.91      0.88      0.89        33
+        Male       0.89      0.91      0.90        34
+
+    accuracy                           0.90        67
+   macro avg       0.90      0.90      0.90        67
+weighted avg       0.90      0.90      0.90        67
+
+2026-07-20 16:18:24 | INFO | M03 | Showing confusion matrix (rows = actual, cols = predicted)
+2026-07-20 16:18:24 | DEBUG | M03 |   depth= 1  train=0.726  test=0.716
+2026-07-20 16:18:24 | DEBUG | M03 |   depth= 2  train=0.891  test=0.821
+2026-07-20 16:18:24 | DEBUG | M03 |   depth= 3  train=0.906  test=0.851
+2026-07-20 16:18:24 | DEBUG | M03 |   depth= 4  train=0.925  test=0.836
+2026-07-20 16:18:24 | DEBUG | M03 |   depth= 5  train=0.966  test=0.896
+2026-07-20 16:18:24 | DEBUG | M03 |   depth= 6  train=0.981  test=0.881
+2026-07-20 16:18:24 | DEBUG | M03 |   depth= 7  train=0.989  test=0.881
+2026-07-20 16:18:24 | DEBUG | M03 |   depth= 8  train=0.989  test=0.881
+2026-07-20 16:18:24 | DEBUG | M03 |   depth= 9  train=0.996  test=0.851
+2026-07-20 16:18:24 | DEBUG | M03 |   depth=10  train=1.000  test=0.881
+2026-07-20 16:18:24 | DEBUG | M03 |   depth=11  train=1.000  test=0.881
+2026-07-20 16:18:24 | DEBUG | M03 |   depth=12  train=1.000  test=0.881
+2026-07-20 16:18:25 | INFO | M03 | ========================
+2026-07-20 16:18:25 | INFO | M03 | SUMMARY
+2026-07-20 16:18:25 | INFO | M03 | ========================
+2026-07-20 16:18:25 | INFO | M03 | Dataset:   penguins
+2026-07-20 16:18:25 | INFO | M03 | Target:    sex  (classification)
+2026-07-20 16:18:25 | INFO | M03 | Features:  ['flipper_length_mm', 'bill_depth_mm', 'body_mass_g']
+2026-07-20 16:18:25 | INFO | M03 | Model:     DecisionTreeClassifier(max_depth=5)
+2026-07-20 16:18:25 | INFO | M03 | ========================
