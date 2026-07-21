@@ -55,7 +55,7 @@ Since the goal of this assignment is to explore, run, and compare classification
 - SVM was just as accurate for case 1 as the decision tree. SVM was more accurate for case 2 and 3 than the decision tree.
 - Neural network was more accurate for case 3 than both the decision tree and SVM.
 
-![Summary of Models](./docs/images/Summary_of_models.png)
+[Summary of Models](./docs/images/Summary_of_models.png)
 
 ### Summary
 
