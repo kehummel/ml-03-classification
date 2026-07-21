@@ -92,11 +92,11 @@ Neural Network: Confusion Matrix and Scatter Plot
 ![Neural Network Scatter Plot](./docs/images/P5_NN_ScatterPlot.png)
 ## Project Documentation
 
-[Phase 4 Notebook](.notebooks/ml_03_hummel.ipynb)
+[Phase 4 Notebook](notebooks/ml_03_hummel.ipynb)
 
-[Phase 5 Notebook](.notebooks/project03/ml03_hummel.ipynb)
+[Phase 5 Notebook](notebooks/project03/ml03_hummel.ipynb)
 
-[Phase 5 README](.notebooks/project03/P3_README.md)
+[Phase 5 README](notebooks/project03/P3_README.md)
 
 [docs/index.md](docs/index.md)
 
