@@ -80,20 +80,23 @@ In your custom project, follow this example, but
 - this `README.md` should include your commands, process, and visuals, and
 - `docs/index.md` should include your narrative.
 
-Remove unnecessary instructional comments in your custom files.
 
-Update figures to present interesting results from your custom project:
 
-![Phase 4: Confusion Matrix for Gender of Penguins](./docs/images/P4_confusion_matrix.png)
 Gender was determined for penguins based on the following features; flipper length, bill depth, and body mass.
+![Phase 4: Confusion Matrix for Gender of Penguins](./docs/images/P4_confusion_matrix.png)
 
-![Provide a Useful Caption](./docs/images/Figure_2.png)
 
+Neural Network: Confusion Matrix and Scatter Plot
+![Neural Network Confusion Matrix](./docs/images/P5_NN_ConfusionMatrix.png)
+
+![Neural Network Scatter Plot](.docs/images/P5_NN_ScatterPlot.png)
 ## Project Documentation
 
 [Phase 4 Notebook](.notebooks/ml_03_hummel.ipynb)
 
-[Phase 5 Notebook]
+[Phase 5 Notebook](.notebooks/project03/ml03_hummel.ipynb)
+
+[Phase 5 README](.notebooks/project03/P3_README.md)
 
 [docs/index.md](docs/index.md)
 
