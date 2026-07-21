@@ -32,69 +32,33 @@ This modification was easy as it only required me to change a few words in the c
 
 ## Phase 5. Custom Project
 
-Describe your custom project and how you made your modeling decisions.
+For phase 5, we ran and compared 3 different classification models; decision tree, SVM, and neural network. Each time we were predicting survival based off of one of the three cases. Case 1's only feature was whether or not the passenger was traveling alone, marked by a 0, or 1. Case 2's only feature was their age, marked by a float that went to one decimal point. Case 3 had two features, age and family size, family size was a positive integer.
 
-Be specific about what changed from the example project.
+For the decision tree and SVM we ran models for all three cases. For the neural network, we only did case 3 since case three is the only two-dimensional set.
+
 
 ### Basis and Data
 
-Describe the dataset, input, or example you started with.
+The original dataset is the "titanic" dataset built into seaborn. We then filled in missing values with the median for age and the mode for missing town departure names. I then turned the features 'sex', 'embarked' and 'alone' to numerical features. I then created an addition feature, 'family size', to state how large each individual's family was.
 
-Include:
-
-- The original example dataset or input
-- The data source
-- Why you chose it, kept it, or changed it
-- Any important limitations or assumptions
+I did not attempt to fill in the missing values for 'deck' as 3/4 of that feature is missing data.
 
 ### Modeling Approach
 
-Describe the problem type and modeling approach for this project.
+This is supervised learning as we already know which passengers survived the sinking of the titanic. This is a classification because we want to know whether or not people fell into the survived category, or didn't survive category.
 
-Include:
-
-- Is this supervised or unsupervised and how do you know
-- Is this classification, regression, clustering, recommendation, forecasting, or another type of ML task
-- What kind of target works well for this approach
-- Why your selected model or method is appropriate
-
-### Target
-
-Describe the example target variable.
-
-Then describe your chosen target variable.
-
-Explain how your target choice changes the modeling approach, interpretation, or evaluation.
-
-### Features
-
-Describe the example features.
-
-Then describe the features you used to predict your target.
-
-Explain what you changed, added, removed, or kept and why.
+Since the goal of this assignment is to explore, run, and compare classification models, it is reasonable that we would chose three different model types to run, and then have three different cases so that we could see each models' strengths and weaknesses.
 
 ### Evaluation and Results
 
-Describe how you evaluated your model.
+- The decision tree was most accurate for case 1, less accurate for case 2, and the least accurate for case 3.
+- SVM was just as accurate for case 1 as the decision tree. SVM was more accurate for case 2 and 3 than the decision tree.
+- Neural network was more accurate for case 3 than both the decision tree and SVM.
 
-Include:
-
-- The metric or evidence you used
-- The main result
-- Whether the result was useful, interesting, surprising, or disappointing
-- Any weakness, limitation, or next improvement
+![Summary of Models](./docs/images/Summary_of_models.png)
 
 ### Summary
 
-Summarize your custom project.
+This project showed that decision trees are efficient and quick for simple classification, where there is only one feature and it is a simple one. It shows that if you have a more complex feature, an SVM would be a better choice. If you have a two dimensional model, and SVM would work as well but a neural network will provide you with the best results.
 
-Include:
-
-- How you implemented your custom model
-- What results you got
-- What you learned
-- How well you exercised the skills covered in this project
-- What kinds of real problems you could apply these skills to in the future
-
-Display at least one image or screenshot showing your work.
+This is essential for my future work as I now know what types of models are used best and when.
