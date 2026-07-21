@@ -89,7 +89,7 @@ Gender was determined for penguins based on the following features; flipper leng
 Neural Network: Confusion Matrix and Scatter Plot
 ![Neural Network Confusion Matrix](./docs/images/P5_NN_ConfusionMatrix.png)
 
-![Neural Network Scatter Plot](.docs/images/P5_NN_ScatterPlot.png)
+![Neural Network Scatter Plot](./docs/images/P5_NN_ScatterPlot.png)
 ## Project Documentation
 
 [Phase 4 Notebook](.notebooks/ml_03_hummel.ipynb)
